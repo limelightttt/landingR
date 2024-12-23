@@ -189,7 +189,7 @@ h1 {
   align-items: center;
   padding: calc(4.4vw + 23.4px) calc(16.5vw - 36px);
   gap: calc(4.1vw + 5px);
-  margin-bottom: calc(1.1vw + 18.6px);
+  margin-bottom: calc(11vw + 18.6px);
 }
 
 #saleTitle {
@@ -557,6 +557,7 @@ h2 {
   align-items: center;
   padding: calc(4.4vw + 23.4px) calc(16.5vw - 36px);
   gap: calc(4.1vw + 5px);
+  margin-bottom: calc(11vw + 18.6px);
 }
 
 #discountText {
