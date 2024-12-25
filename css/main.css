@@ -296,22 +296,6 @@ h1 {
   font-size: calc(0.6vw + 14px);
 }
 
-@media (max-width: 1280px) {
-  .legend {
-    display: flex;
-    justify-content: center;
-  }
-  .legendInfo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .legendCard {
-    grid-template-areas:  "smile keyboard"
-                          "cup bag";
-  }
-}
-
 
 
 h2 {
@@ -389,15 +373,6 @@ h2 {
 .get.mob {
   display: none;
 }
-@media (max-width: 875px) {
-  .get.desc {
-    display: none;
-  }
-  .get.mob {
-    display: block;
-  }
-}
-
 
 
 #titleEightSection {
@@ -419,8 +394,6 @@ h2 {
 #textIcons {
   width: calc(81.4vw + 22.6px);
 }
-
-
 
 
 #titleNineSection {
@@ -458,18 +431,6 @@ h2 {
   font-size: calc(0.3vw + 16.7px);
   width: calc(18.2vw + 220px);
   margin-bottom: calc(0.6vw + 18px);
-}
-
-@media (max-width: 375px) {
-  .photoStudentBox {
-    display: flex;
-    justify-content: center;
-  }
-  .listOfSkills {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 
@@ -592,6 +553,52 @@ h2 {
   text-transform: uppercase;
 }
 
+#aboutUs {
+  font-size: calc(2.7vw + 24px);
+  font-weight: 500;
+  text-transform: uppercase;
+  width: calc(20.2vw + 252px);
+  margin-bottom: calc(5.9vw + 12px);
+}
+
+.aboutUsInfo {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 40px 97px;
+}
+
+.prizeContainer img {
+  width: 110px;
+  height: 110px;
+  margin-bottom: calc(2.2vw + 11.7px);
+}
+
+.prizeContainer span {
+  display: block;
+  font-size: calc(0.6vw + 20px);
+  text-transform: uppercase;
+  line-height: 140%;
+  font-weight: 500;
+  width: calc(10.8vw + 287px);
+}
+
+.textContainer {
+  width: calc(14.7vw + 273px);
+}
+
+.textContainer h3 {
+  font-size: calc(2.7vw + 24px);
+  font-weight: 700;
+  margin-bottom: calc(0.8vw - 2px);
+}
+
+.textContainer p {
+  font-size: calc(0.6vw + 14px);
+}
+
+.graduates {
+  margin-bottom: calc(3.3vw + 17.6px);
+}
 
 .studentsTitle {
   text-transform: uppercase;
@@ -615,4 +622,178 @@ h2 {
 .studentsCard img {
   width: calc(19.7vw + 254.2px);
   height: calc(19.7vw + 254.2px);
+}
+
+
+/* footer start */
+footer {
+  padding: calc(3.9vw + 30.5px) calc(9.5vw - 11.6px);
+  background-color: #222222;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footerLeft {
+width: 50%;
+}
+
+.footerLeft h2 {
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  width: calc(10.5vw + 290px);
+}
+
+.infoLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 24px 0;
+}
+
+.infoLeft div {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
+
+.infoLeft div p {
+  color: white;
+  font-size: calc(1vw + 14.3px);
+}
+
+.footerRight {
+  width: 50%;
+}
+
+.footerForm {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 60px calc(3.3vw + 17.6px);
+  width: calc(16.4vw + 265.7px);
+  text-align: center;
+  position: relative;
+}
+
+.footerForm h3 {
+  font-weight: 700;
+  font-size: calc(0.4vw + 24.3px);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footerForm p {
+  font-size: calc(0.6vw + 14px);
+  margin-bottom: 30px;
+}
+
+.footerForm input {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #A1A1A16B;
+  padding-bottom: 10px;
+  margin-bottom: 23px;
+  outline: none;
+  font-size: calc(0.2vw + 17.2px);
+}
+
+.footerForm .get {
+  margin-bottom: 41px;
+  width: calc(6.7vw + 242px);
+}
+
+.footerRight span {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 118%;
+  color: #222222;
+  opacity: 50%;
+  margin-bottom: 10px;
+}
+
+.footerForm p:last-child {
+  font-size: 18px;
+  color: #222222;
+  opacity: 50%;
+  line-height: 118%;
+}
+
+.sale {
+  width: calc(6.1vw + 82px);
+  height: calc(6.1vw + 82px);
+  background-color: #6E3ABA;
+  border-radius: 50%;
+  font-size: calc(2.5vw + 30.5px);
+  font-weight: 700;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: -70px;
+  top: -70px;
+}
+/* footer end */
+
+@media (max-width: 1280px) {
+  .legend {
+    display: flex;
+    justify-content: center;
+  }
+  .legendInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .legendCard {
+    grid-template-areas:  "smile keyboard"
+                          "cup bag";
+  }
+}
+@media (max-width: 975px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 88px 0;
+  }
+}
+@media (max-width: 875px) {
+  .get.desc {
+    display: none;
+  }
+  .get.mob {
+    display: block;
+  }
+  .sale {
+    right: -20px;
+    left: auto;
+  }
+}
+@media (max-width: 375px) {
+  .photoStudentBox {
+    display: flex;
+    justify-content: center;
+  }
+  .listOfSkills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerLeft, .footerRight {
+    width: 100%;
+  }
+  .footerForm {
+    width: auto;
+  }
+  .footerForm .get {
+    width: 90%;
+  }
 }
